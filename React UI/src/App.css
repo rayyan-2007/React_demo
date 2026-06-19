@@ -1,0 +1,81 @@
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+body{
+  background-color:#fff;
+}
+
+.card-container{
+  text-align: center;
+  padding: 20px;
+  width: 300px;
+  height: 120px;
+  margin: 30px;
+  gap: 20px;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 5px 16px rgba(0, 0, 0, 0.1);
+}
+
+.card-container:hover{
+   transition: 0.1s;
+  transform: scale(1.10);
+  cursor: pointer;
+  background-color: #e0e0e0;
+}
+
+.card-button{
+  width: 65px;
+  padding: 2px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 10px;
+  font-family: monospace;
+  font-size: 12px;
+  color:snow;
+}
+
+.card-button:hover{
+  transition: 0.1s;
+  transform: scale(1.05);
+  cursor: pointer;
+
+}
+
+.card-name{
+  font-size: 25px;
+  font-weight: bold;
+  color: #333;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+}
+
+.app-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+}
+
+.card-email{
+  font-family: monospace;
+  color:#333
+}
+
+@media (max-width: 400px) {
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+  }
+ 
+}
+
+
