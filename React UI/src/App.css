@@ -28,7 +28,7 @@ body{
 }
 
 .card-button{
-  width: 50px;
+  width: 60px ;
   padding: 2px;
   height: 25px;
   background-color: #007bff;
@@ -39,11 +39,12 @@ body{
   font-family: monospace;
   font-size: 12px;
   color:snow;
+  outline:none;
 }
 
 .card-button:hover{
   transition: 0.1s;
-  transform: scale(1.05);
+  transform: scale(0.95);
   cursor: pointer;
 
 }
@@ -81,6 +82,21 @@ body{
     justify-content:space-between;
   }
  
+}
+
+.count{
+  text-align: center;
+  padding: 10px;
+  background-color:#fff;
+  width:100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-family: monospace;
+  color:#333;
+  
+}
+
+.count:hover{
+  background-color:#e0e0e0 ;
 }
 
 
